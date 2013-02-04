@@ -1,6 +1,7 @@
 ; cpath must be defined before including this file. It must be set to the
 ; path of this repo e.g. cpath=./sym if the submodule is called 'sym'.
 
+(component-library (build-path cpath "connector") "Connectors")
 (component-library (build-path cpath "passive") "Passives")
 (component-library (build-path cpath "power") "Power Rails")
 (component-library (build-path cpath "titleblock") "Titleblock")
