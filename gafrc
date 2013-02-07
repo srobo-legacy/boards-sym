@@ -5,3 +5,4 @@
 (component-library (build-path cpath "passive") "Passives")
 (component-library (build-path cpath "power") "Power Rails")
 (component-library (build-path cpath "titleblock") "Titleblock")
+(component-library (build-path cpath "uc") "Microcontrollers")
