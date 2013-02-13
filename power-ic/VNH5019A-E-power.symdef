@@ -1,0 +1,28 @@
+[labels]
+
+refdes=U?
+
+! description=Automotive fully integrated H-bridge motor driver
+! footprint=MultiPowerSO-30.fp
+! documentation=http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00234623.pdf
+! numslots=0
+! device=VNH5019A-E
+
+[left]
+
+26 GNDa
+27 GNDa
+28 GNDa
+
+18 GNDb
+19 GNDb
+20 GNDb
+
+[right]
+
+3 VCC
+13 VCC
+23 VCC
+
+12 VBAT
+11 CP

@@ -1,0 +1,43 @@
+[labels]
+
+refdes=U?
+
+! description=Automotive fully integrated H-bridge motor driver
+! footprint=MultiPowerSO-30.fp
+! documentation=http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00234623.pdf
+! numslots=0
+! device=VNH5019A-E
+
+[left]
+
+4 INa
+5 ENa/DIAGa
+
+10 INb
+9 ENb/DIAGb
+
+7 PWM
+
+6 CS_DIS
+8 CS
+
+[right]
+
+1 OUTa
+25 OUTa
+30 OUTa
+
+.skip 1200
+
+15 OUTb
+16 OUTb
+21 OUTb
+
+[nc]
+
+2
+14
+17
+22
+24
+29
