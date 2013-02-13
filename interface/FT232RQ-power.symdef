@@ -1,0 +1,25 @@
+[labels]
+
+refdes=U?
+
+! description=FTDI FT232R USB to UART bridge
+! footprint=QFN32_5.fp
+! documentation=http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
+! numslots=0
+! device=FT232RQ
+
+[left]
+
+4 GND
+17 GND
+20 GND
+
+24 AGND
+
+[right]
+
+19 VCC
+
+1 VCCIO
+
+16 3V3OUT

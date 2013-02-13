@@ -1,0 +1,41 @@
+[labels]
+
+refdes=U?
+
+! description=FTDI FT232R USB to UART bridge
+! footprint=QFN32_5.fp
+! documentation=http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
+! numslots=0
+! device=FT232RQ
+
+[left]
+
+15 USBDM
+14 USBDP
+
+18 \_RESET\_
+
+27 OSCI
+28 OSCO
+
+26 TEST
+
+[right]
+
+30 TXD
+2 RXD
+
+.bus
+32 \_RTS\_
+8 \_CTS\_
+31 \_DTR\_
+6 \_DSR\_
+7 \_DCD\_
+3 \_RI\_
+
+.bus
+22 CBUS0
+21 CBUS1
+10 CBUS2
+11 CBUS3
+9 CBUS4

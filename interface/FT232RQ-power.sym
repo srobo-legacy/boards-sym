@@ -1,0 +1,91 @@
+v 20060123 1
+B 300 300 1800 2400 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 2100 2800 9 10 0 0 0 0 1
+device=FT232RQ
+T 2100 3000 9 10 0 0 0 0 1
+numslots=0
+T 2100 3200 9 10 0 0 0 0 1
+documentation=http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
+T 2100 3400 9 10 0 0 0 0 1
+footprint=QFN32_5.fp
+T 2100 3600 9 10 0 0 0 0 1
+description=FTDI FT232R USB to UART bridge
+T 1200 2100 9 10 1 1 0 3 1
+refdes=U?
+P 2400 1500 2100 1500 1 0 0
+{
+T 2050 1500 9 10 1 1 0 7 1
+pinlabel=VCCIO
+T 2200 1550 5 8 1 1 0 0 1
+pinnumber=1
+T 2200 1550 5 8 0 1 0 0 1
+pinseq=1
+T 2000 1550 9 10 0 1 0 6 1
+pintype=pas
+}
+P 0 2300 300 2300 1 0 0
+{
+T 350 2300 9 10 1 1 0 1 1
+pinlabel=GND
+T 200 2350 5 8 1 1 0 6 1
+pinnumber=4
+T 200 2350 5 8 0 1 0 6 1
+pinseq=4
+T 200 2350 9 10 0 1 0 6 1
+pintype=pas
+}
+P 2400 700 2100 700 1 0 0
+{
+T 2050 700 9 10 1 1 0 7 1
+pinlabel=3V3OUT
+T 2200 750 5 8 1 1 0 0 1
+pinnumber=16
+T 2200 750 5 8 0 1 0 0 1
+pinseq=16
+T 2000 750 9 10 0 1 0 6 1
+pintype=pas
+}
+P 0 1900 300 1900 1 0 0
+{
+T 350 1900 9 10 1 1 0 1 1
+pinlabel=GND
+T 200 1950 5 8 1 1 0 6 1
+pinnumber=17
+T 200 1950 5 8 0 1 0 6 1
+pinseq=17
+T 200 1950 9 10 0 1 0 6 1
+pintype=pas
+}
+P 2400 2300 2100 2300 1 0 0
+{
+T 2050 2300 9 10 1 1 0 7 1
+pinlabel=VCC
+T 2200 2350 5 8 1 1 0 0 1
+pinnumber=19
+T 2200 2350 5 8 0 1 0 0 1
+pinseq=19
+T 2000 2350 9 10 0 1 0 6 1
+pintype=pas
+}
+P 0 1500 300 1500 1 0 0
+{
+T 350 1500 9 10 1 1 0 1 1
+pinlabel=GND
+T 200 1550 5 8 1 1 0 6 1
+pinnumber=20
+T 200 1550 5 8 0 1 0 6 1
+pinseq=20
+T 200 1550 9 10 0 1 0 6 1
+pintype=pas
+}
+P 0 700 300 700 1 0 0
+{
+T 350 700 9 10 1 1 0 1 1
+pinlabel=AGND
+T 200 750 5 8 1 1 0 6 1
+pinnumber=24
+T 200 750 5 8 0 1 0 6 1
+pinseq=24
+T 200 750 9 10 0 1 0 6 1
+pintype=pas
+}

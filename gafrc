@@ -2,6 +2,7 @@
 ; path of this repo e.g. cpath=./sym if the submodule is called 'sym'.
 
 (component-library (build-path cpath "connector") "Connectors")
+(component-library (build-path cpath "interface") "Interface ICs")
 (component-library (build-path cpath "passive") "Passives")
 (component-library (build-path cpath "power") "Power Rails")
 (component-library (build-path cpath "titleblock") "Titleblock")
