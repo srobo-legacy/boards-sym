@@ -26,12 +26,14 @@ refdes=U?
 1 OUTa
 25 OUTa
 30 OUTa
+HS2 OUTa
 
-.skip 1200
+.skip 400
 
 15 OUTb
 16 OUTb
 21 OUTb
+HS3 OUTb
 
 [nc]
 

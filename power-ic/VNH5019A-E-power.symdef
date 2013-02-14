@@ -20,9 +20,10 @@ refdes=U?
 
 [right]
 
+12 VBAT
+11 CP
+
 3 VCC
 13 VCC
 23 VCC
-
-12 VBAT
-11 CP
+HS1 VCC
