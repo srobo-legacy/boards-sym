@@ -1,0 +1,29 @@
+[labels]
+
+refdes=J?
+
+! description=Standard ARM 10-pin JTAG connector
+! documentation=http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0314h/Chdhbiad.html
+! numslots=0
+! device=CONNECTOR
+
+[left]
+
+.bus
+10 nRESET
+2 TMS/SWDIO
+4 TCK/SWCLK
+8 TDI
+6 TDO/SWO
+
+[right]
+
+1 VTref
+.bus
+3 GND
+5 GND
+9 GNDDetect
+
+[nc]
+
+7
