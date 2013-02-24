@@ -8,5 +8,6 @@
 (component-library (build-path cpath "power") "Power Rails")
 (component-library (build-path cpath "power-ic") "Power ICs")
 (component-library (build-path cpath "titleblock") "Titleblock")
+(component-library (build-path cpath "transistor") "Transistors")
 (component-library (build-path cpath "uc") "Microcontrollers")
 (component-library (build-path cpath "misc") "Miscellaneous")
