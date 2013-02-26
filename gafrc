@@ -11,3 +11,4 @@
 (component-library (build-path cpath "transistor") "Transistors")
 (component-library (build-path cpath "uc") "Microcontrollers")
 (component-library (build-path cpath "misc") "Miscellaneous")
+(component-library (build-path cpath "switch") "Switches")
