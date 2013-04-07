@@ -1,0 +1,64 @@
+v 20121203 2
+B 300 0 1000 1000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 300 1300 5 10 0 0 0 0 1
+device=REGULATOR
+P 1300 800 1600 800 1 0 1
+{
+T 1345 845 5 8 1 1 0 0 1
+pinnumber=1
+T 1500 850 5 8 0 0 0 6 1
+pinseq=1
+T 1245 795 9 8 1 1 0 7 1
+pinlabel=CB
+}
+P 0 200 300 200 1 0 0
+{
+T 255 245 5 8 1 1 0 6 1
+pinnumber=2
+T 100 300 5 8 0 0 270 0 1
+pinseq=2
+T 355 195 9 8 1 1 0 0 1
+pinlabel=GND
+}
+P 300 800 0 800 1 0 1
+{
+T 255 845 5 8 1 1 0 6 1
+pinnumber=5
+T 170 850 5 8 0 0 0 6 1
+pinseq=5
+T 355 795 9 8 1 1 0 1 1
+pinlabel=Vin
+}
+T 300 1100 8 10 1 1 0 0 1
+refdes=U?
+P 300 500 0 500 1 0 1
+{
+T 255 545 5 8 1 1 0 6 1
+pinnumber=4
+T 170 550 5 8 0 0 0 6 1
+pinseq=4
+T 355 495 9 8 1 1 0 1 1
+pinlabel=\_SHDN\_
+}
+T 300 1500 5 10 0 0 0 0 1
+numslots=0
+T 300 1700 5 10 0 0 0 0 1
+description=LMR14203 42V 0.3A step-down DC/DC converter
+P 1300 500 1600 500 1 0 1
+{
+T 1345 545 5 8 1 1 0 0 1
+pinnumber=6
+T 1500 550 5 8 0 0 0 6 1
+pinseq=6
+T 1245 495 9 8 1 1 0 7 1
+pinlabel=SW
+}
+P 1300 200 1600 200 1 0 1
+{
+T 1345 245 5 8 1 1 0 0 1
+pinnumber=3
+T 1500 250 5 8 0 0 0 6 1
+pinseq=3
+T 1245 195 9 8 1 1 0 7 1
+pinlabel=FB
+}
