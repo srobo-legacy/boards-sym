@@ -1,0 +1,109 @@
+v 20121203 2
+B 300 300 1200 1800 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 300 2500 5 10 0 0 0 0 1
+device=REGULATOR
+P 1500 1300 1800 1300 1 0 1
+{
+T 1545 1345 5 8 1 1 0 0 1
+pinnumber=8
+T 1700 1350 5 8 0 0 0 6 1
+pinseq=8
+T 1445 1295 9 8 1 1 0 7 1
+pinlabel=Vbst
+}
+P 900 0 900 300 1 0 0
+{
+T 955 250 5 8 1 1 0 2 1
+pinnumber=EP
+T 800 100 5 8 0 0 0 0 1
+pinseq=EP
+T 905 350 9 8 1 1 0 3 1
+pinlabel=PGND
+}
+P 300 1900 0 1900 1 0 1
+{
+T 255 1945 5 8 1 1 0 6 1
+pinnumber=9
+T 170 1950 5 8 0 0 0 6 1
+pinseq=9
+T 355 1895 9 8 1 1 0 1 1
+pinlabel=Vin
+}
+T 300 2200 8 10 1 1 0 0 1
+refdes=U?
+P 300 1000 0 1000 1 0 1
+{
+T 255 1045 5 8 1 1 0 6 1
+pinnumber=4
+T 170 1050 5 8 0 0 0 6 1
+pinseq=4
+T 355 995 9 8 1 1 0 1 1
+pinlabel=SS
+}
+T 300 2700 5 10 0 0 0 0 1
+numslots=0
+T 300 2900 5 10 0 0 0 0 1
+description=TPS54327 18V 3A synchronous step-down DC/DC converter in SON package
+P 1500 1900 1800 1900 1 0 1
+{
+T 1545 1945 5 8 1 1 0 0 1
+pinnumber=6
+T 1700 1950 5 8 0 0 0 6 1
+pinseq=6
+T 1445 1895 9 8 1 1 0 7 1
+pinlabel=SW
+}
+P 1500 1000 1800 1000 1 0 1
+{
+T 1545 1045 5 8 1 1 0 0 1
+pinnumber=2
+T 1700 1050 5 8 0 0 0 6 1
+pinseq=2
+T 1445 995 9 8 1 1 0 7 1
+pinlabel=Vfb
+}
+P 300 1600 0 1600 1 0 1
+{
+T 255 1645 5 8 1 1 0 6 1
+pinnumber=10
+T 170 1650 5 8 0 0 0 6 1
+pinseq=10
+T 355 1595 9 8 1 1 0 1 1
+pinlabel=Vin
+}
+P 1500 1600 1800 1600 1 0 1
+{
+T 1545 1645 5 8 1 1 0 0 1
+pinnumber=7
+T 1700 1650 5 8 0 0 0 6 1
+pinseq=7
+T 1445 1595 9 8 1 1 0 7 1
+pinlabel=SW
+}
+P 1500 700 1800 700 1 0 1
+{
+T 1545 745 5 8 1 1 0 0 1
+pinnumber=3
+T 1700 750 5 8 0 0 0 6 1
+pinseq=3
+T 1445 695 9 8 1 1 0 7 1
+pinlabel=Vreg5
+}
+P 0 700 300 700 1 0 0
+{
+T 255 745 5 8 1 1 0 6 1
+pinnumber=5
+T 100 800 5 8 0 0 270 0 1
+pinseq=5
+T 355 695 9 8 1 1 0 0 1
+pinlabel=GND
+}
+P 300 1300 0 1300 1 0 1
+{
+T 255 1345 5 8 1 1 0 6 1
+pinnumber=1
+T 170 1350 5 8 0 0 0 6 1
+pinseq=1
+T 355 1295 9 8 1 1 0 1 1
+pinlabel=EN
+}
