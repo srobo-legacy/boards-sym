@@ -1,0 +1,28 @@
+[labels]
+
+refdes=U?
+
+! description=STMicroelectronics STM32F103Cx CortexM3 microcontroller in LQFP48
+! documentation=http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210843.pdf
+! numslots=0
+! device=STM32F103Cx
+
+[left]
+
+.bus
+23 VSS1
+35 VSS2
+47 VSS3
+
+8 VSSa
+
+[right]
+
+.bus
+24 VDD1
+36 VDD2
+48 VDD3
+
+9 VDDa
+
+1 VBAT
