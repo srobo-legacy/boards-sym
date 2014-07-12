@@ -14,3 +14,4 @@
 (component-library (build-path cpath "misc") "Miscellaneous")
 (component-library (build-path cpath "sensor") "Sensors")
 (component-library (build-path cpath "switch") "Switches")
+(component-library (build-path cpath "mechanical") "Mechanical")

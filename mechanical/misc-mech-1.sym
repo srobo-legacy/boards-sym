@@ -1,0 +1,12 @@
+v 20140308 2
+T 0 1100 5 10 0 0 0 0 1
+device=MISCMECH
+T 0 500 8 10 1 1 0 0 1
+refdes=MP?
+T 0 1500 5 10 0 0 0 0 1
+description=Miscellaneous mechanical component
+T 0 1300 5 10 0 0 0 0 1
+numslots=0
+B 0 0 800 400 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
+T 400 200 9 12 1 0 0 4 1
+Misc
