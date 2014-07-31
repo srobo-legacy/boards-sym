@@ -1,0 +1,82 @@
+v 20140308 2
+B 300 0 1200 1800 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 300 2500 5 10 0 0 0 0 1
+device=REGULATOR
+P 1500 600 1800 600 1 0 1
+{
+T 1545 645 5 8 1 1 0 0 1
+pinnumber=6
+T 1700 650 5 8 0 0 0 6 1
+pinseq=6
+T 1445 595 9 8 1 1 0 7 1
+pinlabel=Trim
+}
+P 300 1500 0 1500 1 0 1
+{
+T 255 1545 5 8 1 1 0 6 1
+pinnumber=2
+T 170 1550 5 8 0 0 0 6 1
+pinseq=2
+T 355 1495 9 8 1 1 0 1 1
+pinlabel=Vin
+}
+T 300 1900 8 10 1 1 0 0 1
+refdes=U?
+P 1500 1500 1800 1500 1 0 1
+{
+T 1545 1545 5 8 1 1 0 0 1
+pinnumber=4
+T 1630 1550 5 8 0 0 0 0 1
+pinseq=4
+T 1445 1495 9 8 1 1 0 7 1
+pinlabel=Vout
+}
+T 300 2700 5 10 0 0 0 0 1
+numslots=0
+T 300 2900 5 10 0 0 0 0 1
+description=PVX012A0X3 14V4 to 5V5 12A DC/DC non-isolated converter module
+P 300 300 0 300 1 0 1
+{
+T 255 345 5 8 1 1 0 6 1
+pinnumber=10
+T 100 350 5 8 0 0 0 0 1
+pinseq=10
+T 355 295 9 8 1 1 0 1 1
+pinlabel=PGood
+}
+P 1500 1200 1800 1200 1 0 1
+{
+T 1545 1245 5 8 1 1 0 0 1
+pinnumber=5
+T 1700 1250 5 8 0 0 0 6 1
+pinseq=5
+T 1445 1195 9 8 1 1 0 7 1
+pinlabel=Vsense
+}
+P 1500 300 1800 300 1 0 1
+{
+T 1545 345 5 8 1 1 0 0 1
+pinnumber=7
+T 1700 350 5 8 0 0 0 6 1
+pinseq=7
+T 1445 295 9 8 1 1 0 7 1
+pinlabel=GND
+}
+P 0 600 300 600 1 0 0
+{
+T 255 645 5 8 1 1 0 6 1
+pinnumber=1
+T 100 700 5 8 0 0 270 0 1
+pinseq=1
+T 355 595 9 8 1 1 0 0 1
+pinlabel=On/Off
+}
+P 300 1200 0 1200 1 0 1
+{
+T 255 1245 5 8 1 1 0 6 1
+pinnumber=3
+T 170 1250 5 8 0 0 0 6 1
+pinseq=3
+T 355 1195 9 8 1 1 0 1 1
+pinlabel=GND
+}
