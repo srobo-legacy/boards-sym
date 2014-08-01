@@ -1,0 +1,17 @@
+[labels]
+
+refdes=U?
+
+! description=Microchip 16-bit I2C IO Expander
+! footprint=SSOP28_sr.fp
+! documentation=http://ww1.microchip.com/downloads/en/DeviceDoc/21952b.pdf
+! numslots=0
+! device=MCP23017
+
+[left]
+
+9 VDD
+
+[right]
+
+10 VSS

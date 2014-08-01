@@ -10,9 +10,6 @@ refdes=U?
 
 [left]
 
-9 VDD
-10 VSS
-
 18 \_RESET\_
 
 .bus
