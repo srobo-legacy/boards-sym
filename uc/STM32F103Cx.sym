@@ -189,7 +189,7 @@ pintype=pas
 P 0 3700 300 3700 1 0 0
 {
 T 350 3700 9 10 1 1 0 1 1
-pinlabel=PB2/BOOT1
+pinlabel=PB2/BOOT1*
 T 200 3750 5 8 1 1 0 6 1
 pinnumber=20
 T 200 3750 5 8 0 1 0 6 1
@@ -200,7 +200,7 @@ pintype=pas
 P 0 2500 300 2500 1 0 0
 {
 T 350 2500 9 10 1 1 0 1 1
-pinlabel=PB10
+pinlabel=PB10*
 T 200 2550 5 8 1 1 0 6 1
 pinnumber=21
 T 200 2550 5 8 0 1 0 6 1
@@ -211,7 +211,7 @@ pintype=pas
 P 0 2300 300 2300 1 0 0
 {
 T 350 2300 9 10 1 1 0 1 1
-pinlabel=PB11
+pinlabel=PB11*
 T 200 2350 5 8 1 1 0 6 1
 pinnumber=22
 T 200 2350 5 8 0 1 0 6 1
@@ -222,7 +222,7 @@ pintype=pas
 P 0 2100 300 2100 1 0 0
 {
 T 350 2100 9 10 1 1 0 1 1
-pinlabel=PB12
+pinlabel=PB12*
 T 200 2150 5 8 1 1 0 6 1
 pinnumber=25
 T 200 2150 5 8 0 1 0 6 1
@@ -233,7 +233,7 @@ pintype=pas
 P 0 1900 300 1900 1 0 0
 {
 T 350 1900 9 10 1 1 0 1 1
-pinlabel=PB13
+pinlabel=PB13*
 T 200 1950 5 8 1 1 0 6 1
 pinnumber=26
 T 200 1950 5 8 0 1 0 6 1
@@ -244,7 +244,7 @@ pintype=pas
 P 0 1700 300 1700 1 0 0
 {
 T 350 1700 9 10 1 1 0 1 1
-pinlabel=PB14
+pinlabel=PB14*
 T 200 1750 5 8 1 1 0 6 1
 pinnumber=27
 T 200 1750 5 8 0 1 0 6 1
@@ -255,7 +255,7 @@ pintype=pas
 P 0 1500 300 1500 1 0 0
 {
 T 350 1500 9 10 1 1 0 1 1
-pinlabel=PB15
+pinlabel=PB15*
 T 200 1550 5 8 1 1 0 6 1
 pinnumber=28
 T 200 1550 5 8 0 1 0 6 1
@@ -266,7 +266,7 @@ pintype=pas
 P 0 5700 300 5700 1 0 0
 {
 T 350 5700 9 10 1 1 0 1 1
-pinlabel=PA8
+pinlabel=PA8*
 T 200 5750 5 8 1 1 0 6 1
 pinnumber=29
 T 200 5750 5 8 0 1 0 6 1
@@ -277,7 +277,7 @@ pintype=pas
 P 0 5500 300 5500 1 0 0
 {
 T 350 5500 9 10 1 1 0 1 1
-pinlabel=PA9/USART1_TX
+pinlabel=PA9/USART1_TX*
 T 200 5550 5 8 1 1 0 6 1
 pinnumber=30
 T 200 5550 5 8 0 1 0 6 1
@@ -288,7 +288,7 @@ pintype=pas
 P 0 5300 300 5300 1 0 0
 {
 T 350 5300 9 10 1 1 0 1 1
-pinlabel=PA10/USART1_RX
+pinlabel=PA10/USART1_RX*
 T 200 5350 5 8 1 1 0 6 1
 pinnumber=31
 T 200 5350 5 8 0 1 0 6 1
@@ -299,7 +299,7 @@ pintype=pas
 P 0 5100 300 5100 1 0 0
 {
 T 350 5100 9 10 1 1 0 1 1
-pinlabel=PA11/USBDM
+pinlabel=PA11/USBDM*
 T 200 5150 5 8 1 1 0 6 1
 pinnumber=32
 T 200 5150 5 8 0 1 0 6 1
@@ -310,7 +310,7 @@ pintype=pas
 P 0 4900 300 4900 1 0 0
 {
 T 350 4900 9 10 1 1 0 1 1
-pinlabel=PA12/USBDP
+pinlabel=PA12/USBDP*
 T 200 4950 5 8 1 1 0 6 1
 pinnumber=33
 T 200 4950 5 8 0 1 0 6 1
@@ -321,7 +321,7 @@ pintype=pas
 P 5900 6100 5600 6100 1 0 0
 {
 T 5550 6100 9 10 1 1 0 7 1
-pinlabel=TMS/(PA13)
+pinlabel=*TMS/(PA13)
 T 5700 6150 5 8 1 1 0 0 1
 pinnumber=34
 T 5700 6150 5 8 0 1 0 0 1
@@ -332,7 +332,7 @@ pintype=pas
 P 5900 5900 5600 5900 1 0 0
 {
 T 5550 5900 9 10 1 1 0 7 1
-pinlabel=TCK/(PA14)
+pinlabel=*TCK/(PA14)
 T 5700 5950 5 8 1 1 0 0 1
 pinnumber=37
 T 5700 5950 5 8 0 1 0 0 1
@@ -343,7 +343,7 @@ pintype=pas
 P 5900 5700 5600 5700 1 0 0
 {
 T 5550 5700 9 10 1 1 0 7 1
-pinlabel=TDI(PA15)
+pinlabel=*TDI(PA15)
 T 5700 5750 5 8 1 1 0 0 1
 pinnumber=38
 T 5700 5750 5 8 0 1 0 0 1
@@ -354,7 +354,7 @@ pintype=pas
 P 5900 5500 5600 5500 1 0 0
 {
 T 5550 5500 9 10 1 1 0 7 1
-pinlabel=TDO/(PB3)
+pinlabel=*TDO/(PB3)
 T 5700 5550 5 8 1 1 0 0 1
 pinnumber=39
 T 5700 5550 5 8 0 1 0 0 1
@@ -365,7 +365,7 @@ pintype=pas
 P 5900 5300 5600 5300 1 0 0
 {
 T 5550 5300 9 10 1 1 0 7 1
-pinlabel=\_TRST\_/(PB4)
+pinlabel=*\_TRST\_/(PB4)
 T 5700 5350 5 8 1 1 0 0 1
 pinnumber=40
 T 5700 5350 5 8 0 1 0 0 1
@@ -387,7 +387,7 @@ pintype=pas
 P 0 3300 300 3300 1 0 0
 {
 T 350 3300 9 10 1 1 0 1 1
-pinlabel=PB6/I2C1_SCL
+pinlabel=PB6/I2C1_SCL*
 T 200 3350 5 8 1 1 0 6 1
 pinnumber=42
 T 200 3350 5 8 0 1 0 6 1
@@ -398,7 +398,7 @@ pintype=pas
 P 0 3100 300 3100 1 0 0
 {
 T 350 3100 9 10 1 1 0 1 1
-pinlabel=PB7/I2C1_SDA
+pinlabel=PB7/I2C1_SDA*
 T 200 3150 5 8 1 1 0 6 1
 pinnumber=43
 T 200 3150 5 8 0 1 0 6 1
@@ -420,7 +420,7 @@ pintype=pas
 P 0 2900 300 2900 1 0 0
 {
 T 350 2900 9 10 1 1 0 1 1
-pinlabel=PB8
+pinlabel=PB8*
 T 200 2950 5 8 1 1 0 6 1
 pinnumber=45
 T 200 2950 5 8 0 1 0 6 1
@@ -431,7 +431,7 @@ pintype=pas
 P 0 2700 300 2700 1 0 0
 {
 T 350 2700 9 10 1 1 0 1 1
-pinlabel=PB9
+pinlabel=PB9*
 T 200 2750 5 8 1 1 0 6 1
 pinnumber=46
 T 200 2750 5 8 0 1 0 6 1
