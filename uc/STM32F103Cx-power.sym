@@ -109,3 +109,14 @@ pinseq=48
 T 1700 2350 9 10 0 1 0 6 1
 pintype=pas
 }
+P 0 700 300 700 1 0 0
+{
+T 350 700 9 10 1 1 0 1 1
+pinlabel=EP
+T 200 750 5 8 1 1 0 6 1
+pinnumber=EP
+T 200 750 5 8 0 1 0 6 1
+pinseq=2
+T 200 750 9 10 0 1 0 6 1
+pintype=pas
+}
